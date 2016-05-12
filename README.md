@@ -50,9 +50,10 @@ The items declared and used by the overall management of executing the applicati
 ##Running##
 	
 Copy the startup script **node-app** to your **/etc/init.d** directory:
+Consider renaming the **node-app** to better describe the service
 
     sudo bash -l
-    cp ./init.d/node-app /etc/init.d/
+    cp ./init.d/node-app /etc/init.d/CUSTOMFILENAMEHERE
 
 ###Available Actions###
 
